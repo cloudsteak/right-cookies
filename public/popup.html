@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>My Chrome Extension</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div class="app">
+    <!--p class="counter-label">Counter</p>
+      <div id="counter" class="counter"></div>
+      <div class="button-container">
+        <button id="decrementBtn" class="button">-</button>
+        <button id="incrementBtn" class="button">+</button>
+      </div-->
+    <p class="subtitle">Right Cookies by CloudSteak</p>
+    <hr class="divider" />
+    <div class="radioButtonContainer">
+      <input type="radio" name="mainSelector" id="onlyEssentialRadio" checked /><label
+        for="onlyEssentialRadio">&nbsp;Enable only essential cookies</label><br>
+      <input type="radio" name="mainSelector" id="customRadio" /><label for="customRadio">&nbsp;Custom cookie
+        settings</label>
+    </div>
+    <div class="checkboxContainer">
+      <input type="checkbox" class="cookieTypes" id="marketingCookiesCheckbox" /><label
+        for="marketingCookiesCheckbox">&nbsp;Enable Marketing Cookies</label><br>
+      <input type="checkbox" class="cookieTypes" id="legalCookiesCheckbox" /><label
+        for="legalCookiesCheckbox">&nbsp;Legal Cookies</label>
+      <hr class="divider" />
+    </div>
+    <div class="buttonsContainer">
+      <button type="button" class="operationButtons" id="resetSettingsButton">Reset Settings</button>
+      <button type="button" class="operationButtons" id="resetCustomButton">Reset Custom Settings</button>
+    </div>
+
+    <!--hr class="divider" />
+
+      <p class="title">Right Cookies</p>
+      <p class="subtitle">Select only the essential cookies - Chrome Extension</p-->
+  </div>
+
+  <script src="popup.js"></script>
+
+  <!--
+      This HTML file opens when you click on icon from the toolbar.
+
+      To begin the development, run `npm run watch`.
+      To create a production bundle, use `npm run build`.
+    -->
+</body>
+
+</html>
